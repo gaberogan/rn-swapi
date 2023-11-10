@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, ImageBackground, StyleSheet, Text, View} from 'react-native';
+import {Image, StyleSheet, Text, View} from 'react-native';
 import {Starship} from '../queries/starships';
 
 type StarshipProps = {
@@ -8,10 +8,7 @@ type StarshipProps = {
 
 function StarshipCard({starship}: StarshipProps): JSX.Element {
   return (
-    <ImageBackground
-      source={{uri: 'https://wallpapercave.com/wp/wp3654351.jpg'}}
-      imageStyle={{opacity: 0.06}}
-      style={styles.starshipContainer}>
+    <View style={styles.starshipContainer}>
       <Text style={styles.starshipTitle}>{starship.name}</Text>
       <View style={styles.starshipStatRow}>
         <View style={styles.starshipStat}>
@@ -27,7 +24,7 @@ function StarshipCard({starship}: StarshipProps): JSX.Element {
           <Text>{starship.length}</Text>
         </View>
       </View>
-    </ImageBackground>
+    </View>
   );
 }
 
