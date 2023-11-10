@@ -17,8 +17,6 @@ function HomeScreen(): JSX.Element {
     edge => edge.node,
   );
 
-  console.log(JSON.stringify(starships, null, 2));
-
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar
@@ -28,9 +26,9 @@ function HomeScreen(): JSX.Element {
       <FlatList
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}
-        data={[]}
+        data={starships}
         renderItem={({item}) => <Starship starship={item} />}
-        keyExtractor={item => item}
+        keyExtractor={item => item.id}
       />
     </SafeAreaView>
   );
