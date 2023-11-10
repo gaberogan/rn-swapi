@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image, ImageBackground, StyleSheet, Text, View} from 'react-native';
+import {Starship} from '../queries/starships';
 
 type StarshipProps = {
   starship: Starship;
