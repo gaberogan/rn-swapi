@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1D8E6BF0D11ADC4151E7D69D /* libPods-TakeHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B3015621DCB593F1B01C26 /* libPods-TakeHome.a */; };
+		4607220581286ED41F2B4044 /* libPods-TakeHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43893CC5C8977749311D0F7 /* libPods-TakeHome.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F4F4E15E9F515C75729DFFD6 /* libPods-TakeHome-TakeHomeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBD845BCDBAE79B8A190389 /* libPods-TakeHome-TakeHomeTests.a */; };
+		F51FEF35A86FD62FCBB9ACA2 /* libPods-TakeHome-TakeHomeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7ED0D3AA60F7C0308777E0F /* libPods-TakeHome-TakeHomeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* TakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TakeHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeHomeTests.m; sourceTree = "<group>"; };
+		0E6ACE287AFBE744A40C5C4C /* Pods-TakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHome.debug.xcconfig"; path = "Target Support Files/Pods-TakeHome/Pods-TakeHome.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* TakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TakeHome/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = TakeHome/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TakeHome/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TakeHome/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TakeHome/main.m; sourceTree = "<group>"; };
-		16B3015621DCB593F1B01C26 /* libPods-TakeHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TakeHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20A59BEA681199AFC630A0B9 /* Pods-TakeHome-TakeHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHome-TakeHomeTests.debug.xcconfig"; path = "Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6836F62C6FE46D90600238AF /* Pods-TakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHome.debug.xcconfig"; path = "Target Support Files/Pods-TakeHome/Pods-TakeHome.debug.xcconfig"; sourceTree = "<group>"; };
+		362ED42F6D5E5D5D3557F4DB /* Pods-TakeHome-TakeHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHome-TakeHomeTests.debug.xcconfig"; path = "Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41673B95C4836E27499FF654 /* Pods-TakeHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHome.release.xcconfig"; path = "Target Support Files/Pods-TakeHome/Pods-TakeHome.release.xcconfig"; sourceTree = "<group>"; };
+		5B2BB676BFF74CB22CF6E19A /* Pods-TakeHome-TakeHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHome-TakeHomeTests.release.xcconfig"; path = "Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TakeHome/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		94D60F8990555F1EFDB8BC78 /* Pods-TakeHome-TakeHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHome-TakeHomeTests.release.xcconfig"; path = "Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests.release.xcconfig"; sourceTree = "<group>"; };
-		9CEB87E07953896E69BFFB59 /* Pods-TakeHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeHome.release.xcconfig"; path = "Target Support Files/Pods-TakeHome/Pods-TakeHome.release.xcconfig"; sourceTree = "<group>"; };
+		B43893CC5C8977749311D0F7 /* libPods-TakeHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TakeHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7ED0D3AA60F7C0308777E0F /* libPods-TakeHome-TakeHomeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TakeHome-TakeHomeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EFBD845BCDBAE79B8A190389 /* libPods-TakeHome-TakeHomeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TakeHome-TakeHomeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F4E15E9F515C75729DFFD6 /* libPods-TakeHome-TakeHomeTests.a in Frameworks */,
+				F51FEF35A86FD62FCBB9ACA2 /* libPods-TakeHome-TakeHomeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D8E6BF0D11ADC4151E7D69D /* libPods-TakeHome.a in Frameworks */,
+				4607220581286ED41F2B4044 /* libPods-TakeHome.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				16B3015621DCB593F1B01C26 /* libPods-TakeHome.a */,
-				EFBD845BCDBAE79B8A190389 /* libPods-TakeHome-TakeHomeTests.a */,
+				B43893CC5C8977749311D0F7 /* libPods-TakeHome.a */,
+				C7ED0D3AA60F7C0308777E0F /* libPods-TakeHome-TakeHomeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6836F62C6FE46D90600238AF /* Pods-TakeHome.debug.xcconfig */,
-				9CEB87E07953896E69BFFB59 /* Pods-TakeHome.release.xcconfig */,
-				20A59BEA681199AFC630A0B9 /* Pods-TakeHome-TakeHomeTests.debug.xcconfig */,
-				94D60F8990555F1EFDB8BC78 /* Pods-TakeHome-TakeHomeTests.release.xcconfig */,
+				0E6ACE287AFBE744A40C5C4C /* Pods-TakeHome.debug.xcconfig */,
+				41673B95C4836E27499FF654 /* Pods-TakeHome.release.xcconfig */,
+				362ED42F6D5E5D5D3557F4DB /* Pods-TakeHome-TakeHomeTests.debug.xcconfig */,
+				5B2BB676BFF74CB22CF6E19A /* Pods-TakeHome-TakeHomeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TakeHomeTests" */;
 			buildPhases = (
-				98F34ADCBEC6D30DB3B3C29F /* [CP] Check Pods Manifest.lock */,
+				5DFE5525932FCAA6E6118A5B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				2DC817496B88EAD1E886104D /* [CP] Embed Pods Frameworks */,
-				55AE69A187A22BE308E550E7 /* [CP] Copy Pods Resources */,
+				954182D5E8737145D74F796C /* [CP] Embed Pods Frameworks */,
+				2B46E9CFBF845180EA68916F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TakeHome" */;
 			buildPhases = (
-				0F09586C54A09BBA887D00F9 /* [CP] Check Pods Manifest.lock */,
+				18184D1C39C40BD349AAE5B6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A5FFD5A5A5C8FC04636E6D3A /* [CP] Embed Pods Frameworks */,
-				0D3F3E5B9993797EDA8FD85C /* [CP] Copy Pods Resources */,
+				0AA4853264B986BD741B2EFB /* [CP] Embed Pods Frameworks */,
+				76925FE7D9B8E637E964FB80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,24 +266,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		0D3F3E5B9993797EDA8FD85C /* [CP] Copy Pods Resources */ = {
+		0AA4853264B986BD741B2EFB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0F09586C54A09BBA887D00F9 /* [CP] Check Pods Manifest.lock */ = {
+		18184D1C39C40BD349AAE5B6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,24 +305,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2DC817496B88EAD1E886104D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55AE69A187A22BE308E550E7 /* [CP] Copy Pods Resources */ = {
+		2B46E9CFBF845180EA68916F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,7 +322,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		98F34ADCBEC6D30DB3B3C29F /* [CP] Check Pods Manifest.lock */ = {
+		5DFE5525932FCAA6E6118A5B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,21 +344,38 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A5FFD5A5A5C8FC04636E6D3A /* [CP] Embed Pods Frameworks */ = {
+		76925FE7D9B8E637E964FB80 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeHome/Pods-TakeHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		954182D5E8737145D74F796C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TakeHome-TakeHomeTests/Pods-TakeHome-TakeHomeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -430,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20A59BEA681199AFC630A0B9 /* Pods-TakeHome-TakeHomeTests.debug.xcconfig */;
+			baseConfigurationReference = 362ED42F6D5E5D5D3557F4DB /* Pods-TakeHome-TakeHomeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +457,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94D60F8990555F1EFDB8BC78 /* Pods-TakeHome-TakeHomeTests.release.xcconfig */;
+			baseConfigurationReference = 5B2BB676BFF74CB22CF6E19A /* Pods-TakeHome-TakeHomeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +481,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6836F62C6FE46D90600238AF /* Pods-TakeHome.debug.xcconfig */;
+			baseConfigurationReference = 0E6ACE287AFBE744A40C5C4C /* Pods-TakeHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -510,7 +510,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CEB87E07953896E69BFFB59 /* Pods-TakeHome.release.xcconfig */;
+			baseConfigurationReference = 41673B95C4836E27499FF654 /* Pods-TakeHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
