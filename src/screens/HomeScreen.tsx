@@ -1,10 +1,11 @@
 import {useQuery} from '@apollo/client';
-import React from 'react';
+import React, {useCallback, useMemo} from 'react';
 import {FlatList, SafeAreaView, StatusBar} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {STARSHIPS_QUERY, StarshipsQuery} from '../queries/starships';
 import StarshipCard from '../components/StarshipCard';
+import Geolocator from '../components/Geolocator';
 
 const backgroundStyle = {
   backgroundColor: Colors.lighter,
@@ -13,9 +14,12 @@ const backgroundStyle = {
 function HomeScreen(): JSX.Element {
   const starshipsResponse = useQuery<StarshipsQuery>(STARSHIPS_QUERY);
 
-  const starships = starshipsResponse.data?.allStarships.edges.map(
-    edge => edge.node,
+  const starships = useMemo(
+    () => starshipsResponse.data?.allStarships.edges.map(edge => edge.node),
+    [starshipsResponse.data],
   );
+
+  const renderHeader = useCallback(() => <Geolocator />, []);
 
   return (
     <SafeAreaView style={backgroundStyle}>
@@ -24,6 +28,7 @@ function HomeScreen(): JSX.Element {
         backgroundColor={backgroundStyle.backgroundColor}
       />
       <FlatList
+        ListHeaderComponent={renderHeader}
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}
         data={starships}
