@@ -2,11 +2,12 @@ import React from 'react';
 import {useEffect, useState} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import {requestLocationPermission} from '../services/geolocation';
-import Geolocation, {GeoPosition} from 'react-native-geolocation-service';
+import Geolocation from 'react-native-geolocation-service';
+import {getDistance} from 'geolib';
 
 function Geolocator(): JSX.Element {
   const [granted, setGranted] = useState(false);
-  const [location, setLocation] = useState<GeoPosition | null>(null);
+  const [distance, setDistance] = useState<number | null>(null);
 
   useEffect(() => {
     requestLocationPermission().then(result => setGranted(result));
@@ -16,8 +17,14 @@ function Geolocator(): JSX.Element {
     if (granted) {
       Geolocation.getCurrentPosition(
         position => {
-          console.log(position);
-          setLocation(position);
+          const _distance = getDistance(
+            {latitude: 33.814831976267016, longitude: -117.92057887641796},
+            {
+              latitude: position.coords.latitude,
+              longitude: position.coords.longitude,
+            },
+          );
+          setDistance(_distance);
         },
         error => {
           console.log(error.code, error.message);
@@ -40,9 +47,20 @@ function Geolocator(): JSX.Element {
     );
   }
 
+  if (distance === null) {
+    return (
+      <View style={styles.geoContainer}>
+        <Text>Calculating distance...</Text>
+      </View>
+    );
+  }
+
   return (
     <View style={styles.geoContainer}>
-      <Text>Location permisssions granted</Text>
+      <Text>
+        You are {Math.floor((distance / 1000) * 0.621371)} miles from Star Wars
+        World!
+      </Text>
     </View>
   );
 }
