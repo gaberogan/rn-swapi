@@ -4,7 +4,7 @@ import {FlatList, SafeAreaView, StatusBar} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {STARSHIPS_QUERY, StarshipsQuery} from '../queries/starships';
-import Starship from '../components/Starship';
+import StarshipCard from '../components/StarshipCard';
 
 const backgroundStyle = {
   backgroundColor: Colors.lighter,
@@ -27,7 +27,7 @@ function HomeScreen(): JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}
         data={starships}
-        renderItem={({item}) => <Starship starship={item} />}
+        renderItem={({item}) => <StarshipCard starship={item} />}
         keyExtractor={item => item.id}
       />
     </SafeAreaView>

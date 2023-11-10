@@ -6,7 +6,7 @@ type StarshipProps = {
   starship: Starship;
 };
 
-function Starship({starship}: StarshipProps): JSX.Element {
+function StarshipCard({starship}: StarshipProps): JSX.Element {
   return (
     <ImageBackground
       source={{uri: 'https://wallpapercave.com/wp/wp3654351.jpg'}}
@@ -72,4 +72,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Starship;
+export default StarshipCard;
