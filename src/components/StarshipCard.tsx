@@ -56,6 +56,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#00007711',
     gap: 8,
     borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#00000044',
   },
   starshipTitle: {
     fontWeight: '500',
